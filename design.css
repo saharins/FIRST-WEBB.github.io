@@ -1,0 +1,125 @@
+body {
+    margin: 40px 100px;
+}
+
+
+.intro-text-section h1 {
+    font-size: xx-large;
+    color: gray;
+}
+
+.intro-text-section li {
+    color: gray;
+}
+
+.intro-section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 60px 0px;
+    padding: 20px 0px;
+    background-color: rgb(190, 207, 207);
+    box-shadow: rgba(111, 103, 103, 0.24) 0px 3px 8px;
+    transition-duration: 2s;
+}
+.intro-image-section{
+    width: 250;
+    height: 560;
+}
+.intro-section:hover {
+    background-color: rgb(220, 153, 175);
+}
+.aboutPic-image-section img{
+    width: 550px;
+    height: 650px;
+}
+.aboutPic-text-section h1{
+    font-size: xx-large;
+}
+
+.aboutPic-text-section p{
+    color: rgb(74, 70, 64);
+}
+
+.aboutPic-text-section {
+    width: 300px;
+}
+.aboutPic-section {
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    transition-duration: 2s; 
+}
+
+.aboutPic-section:hover {
+    background-color: rgb(151, 178, 215);
+    transition-duration: 1s;
+}
+.aboutPic-section {
+    background-color: rgb(146, 114, 134);
+    padding: 20px 0px;
+    box-shadow: rgba(163, 146, 146, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.whatPicDo-section div{
+    margin: 60px 0px;
+    background-color: rgb(244, 197, 213);
+    padding: 40px 12px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.whatPicDo-section :hover{
+    background-color: rgb(146, 193, 180);
+    transition-duration: 1s;
+}
+.whatPicDo-card-section {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.whatPicDo-card-section div {
+    box-shadow: rgba(225, 213, 213, 0.24) 0px 3px 8px;
+    padding: 10px;
+    width: 300px;
+    height: 250px;
+    border-radius: 15px;
+}
+
+.whatPicDo-card-section div img{
+    height: 70px;
+    weight: 30px;
+}
+
+
+@media only screen and (max-width: 620px) {
+
+    .intro-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    body {
+        margin: 40px 10px;
+    }
+}
+@media only screen and (max-width: 620px) {
+
+    .aboutMe-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    body {
+        margin: 40px 10px;
+    }
+}
+@media only screen and (max-width: 620px) {
+
+    .whatPicDo-section div{
+        display: flex;
+        flex-direction: column;
+    }
+
+    body {
+        margin: 40px 10px;
+    }
+}
